@@ -1,6 +1,6 @@
 ﻿namespace Presentacion.Tienda
 {
-    partial class Form1
+    partial class Productos
     {
         /// <summary>
         /// Variable del diseñador necesaria.
