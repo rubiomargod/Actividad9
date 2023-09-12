@@ -1,0 +1,10 @@
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Presentacion.Tienda\bin\Debug\Presentacion.Tienda.exe.config
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Presentacion.Tienda\bin\Debug\Presentacion.Tienda.exe
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Presentacion.Tienda\bin\Debug\Presentacion.Tienda.pdb
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Presentacion.Tienda\obj\Debug\Presentacion.Tienda.csproj.AssemblyReference.cache
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Presentacion.Tienda\obj\Debug\Presentacion.Tienda.csproj.SuggestedBindingRedirects.cache
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Presentacion.Tienda\obj\Debug\Presentacion.Tienda.Properties.Resources.resources
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Presentacion.Tienda\obj\Debug\Presentacion.Tienda.csproj.GenerateResource.cache
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Presentacion.Tienda\obj\Debug\Presentacion.Tienda.csproj.CoreCompileInputs.cache
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Presentacion.Tienda\obj\Debug\Presentacion.Tienda.exe
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Presentacion.Tienda\obj\Debug\Presentacion.Tienda.pdb
