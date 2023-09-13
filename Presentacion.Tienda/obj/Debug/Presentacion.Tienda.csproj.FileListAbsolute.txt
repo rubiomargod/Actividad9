@@ -8,3 +8,12 @@ C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Presentacion.Tienda\obj\Debug\
 C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Presentacion.Tienda\obj\Debug\Presentacion.Tienda.csproj.CoreCompileInputs.cache
 C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Presentacion.Tienda\obj\Debug\Presentacion.Tienda.exe
 C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Presentacion.Tienda\obj\Debug\Presentacion.Tienda.pdb
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Presentacion.Tienda\bin\Debug\Entidades.Tienda.dll
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Presentacion.Tienda\bin\Debug\LogicaNegocio.Tienda.dll
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Presentacion.Tienda\bin\Debug\AccesoDatos.Tienda.dll
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Presentacion.Tienda\bin\Debug\MySql.Data.dll
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Presentacion.Tienda\bin\Debug\Entidades.Tienda.pdb
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Presentacion.Tienda\bin\Debug\LogicaNegocio.Tienda.pdb
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Presentacion.Tienda\bin\Debug\AccesoDatos.Tienda.pdb
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Presentacion.Tienda\obj\Debug\Presentacion.Tienda.csproj.CopyComplete
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Presentacion.Tienda\obj\Debug\Presentacion.Tienda.FrmProductos.resources
