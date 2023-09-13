@@ -96,6 +96,7 @@
             this.btnborrar.Text = "Borrar";
             this.btnborrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnborrar.UseVisualStyleBackColor = false;
+            this.btnborrar.Click += new System.EventHandler(this.btnborrar_Click);
             // 
             // btnnuevo
             // 

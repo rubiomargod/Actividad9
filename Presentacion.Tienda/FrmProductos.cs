@@ -95,5 +95,19 @@ namespace Presentacion.Tienda
                 
             }
         }
+
+        private void btnborrar_Click(object sender, EventArgs e)
+        {
+            Eliminar();
+            LlenarUsuario();
+        }
+        private void Eliminar()
+        {
+            if (MessageBox.Show("estas segur@ que Deseas eliminar a este Producto", "Eliminar Producto", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                var idproducto = int.Parse(dtgProductos.CurrentRow.Cells["id"].Value.ToString());
+                _productosLogica.EliminarProducto(idproducto);                
+            }
+        }
     }
 }
