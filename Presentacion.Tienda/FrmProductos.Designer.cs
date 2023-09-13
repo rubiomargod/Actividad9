@@ -54,8 +54,10 @@
             this.dtgProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgProductos.Location = new System.Drawing.Point(12, 134);
             this.dtgProductos.Name = "dtgProductos";
+            this.dtgProductos.RowHeadersWidth = 51;
             this.dtgProductos.Size = new System.Drawing.Size(860, 200);
             this.dtgProductos.TabIndex = 0;
+            this.dtgProductos.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgProductos_CellDoubleClick);
             // 
             // btnsalir
             // 
@@ -83,6 +85,7 @@
             this.btncancelar.Text = "Cancelar";
             this.btncancelar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btncancelar.UseVisualStyleBackColor = false;
+            this.btncancelar.Click += new System.EventHandler(this.btncancelar_Click);
             // 
             // btnborrar
             // 
@@ -128,7 +131,7 @@
             this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(19, 106);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 19);
+            this.label3.Size = new System.Drawing.Size(84, 24);
             this.label3.TabIndex = 7;
             this.label3.Text = "Buscar:";
             // 
@@ -138,8 +141,9 @@
             this.txtbuscar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtbuscar.Location = new System.Drawing.Point(95, 102);
             this.txtbuscar.Name = "txtbuscar";
-            this.txtbuscar.Size = new System.Drawing.Size(777, 26);
+            this.txtbuscar.Size = new System.Drawing.Size(777, 30);
             this.txtbuscar.TabIndex = 8;
+            this.txtbuscar.TextChanged += new System.EventHandler(this.txtbuscar_TextChanged);
             // 
             // label4
             // 
@@ -155,7 +159,7 @@
             this.txtproducto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtproducto.Location = new System.Drawing.Point(12, 403);
             this.txtproducto.Name = "txtproducto";
-            this.txtproducto.Size = new System.Drawing.Size(400, 26);
+            this.txtproducto.Size = new System.Drawing.Size(400, 30);
             this.txtproducto.TabIndex = 11;
             // 
             // label1
@@ -164,7 +168,7 @@
             this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 382);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 19);
+            this.label1.Size = new System.Drawing.Size(104, 24);
             this.label1.TabIndex = 10;
             this.label1.Text = "Producto:";
             // 
@@ -174,7 +178,7 @@
             this.txtdescripcion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtdescripcion.Location = new System.Drawing.Point(472, 403);
             this.txtdescripcion.Name = "txtdescripcion";
-            this.txtdescripcion.Size = new System.Drawing.Size(400, 26);
+            this.txtdescripcion.Size = new System.Drawing.Size(400, 30);
             this.txtdescripcion.TabIndex = 13;
             // 
             // label5
@@ -183,7 +187,7 @@
             this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(469, 382);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(107, 19);
+            this.label5.Size = new System.Drawing.Size(129, 24);
             this.label5.TabIndex = 12;
             this.label5.Text = "Descripcion:";
             // 
@@ -193,7 +197,7 @@
             this.txtprecio.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtprecio.Location = new System.Drawing.Point(12, 457);
             this.txtprecio.Name = "txtprecio";
-            this.txtprecio.Size = new System.Drawing.Size(400, 26);
+            this.txtprecio.Size = new System.Drawing.Size(400, 30);
             this.txtprecio.TabIndex = 15;
             // 
             // label6
@@ -202,7 +206,7 @@
             this.label6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(12, 436);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(64, 19);
+            this.label6.Size = new System.Drawing.Size(77, 24);
             this.label6.TabIndex = 14;
             this.label6.Text = "Precio:";
             // 
@@ -222,7 +226,7 @@
             // 
             // FrmProductos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(884, 561);

@@ -92,7 +92,7 @@ namespace Presentacion.Tienda
             }
             else if (banderaGuardar.Equals("Modificar"))
             {
-                
+                ModificacionProductos();
             }
         }
 
@@ -108,6 +108,54 @@ namespace Presentacion.Tienda
                 var idproducto = int.Parse(dtgProductos.CurrentRow.Cells["id"].Value.ToString());
                 _productosLogica.EliminarProducto(idproducto);                
             }
+        }
+
+        private void txtbuscar_TextChanged(object sender, EventArgs e)
+        {
+            Buscar(txtbuscar.Text);
+        }
+        private void Buscar(string valor)
+        {
+            dtgProductos.DataSource = _productosLogica.BuscarProductos(valor);
+        }
+
+        private void dtgProductos_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            ControlarBotones(false, true, true, false, false);
+            ControlCuadros(true);
+            txtproducto.Focus();
+            txtproducto.Text = dtgProductos.CurrentRow.Cells["nombre"].Value.ToString();
+            txtdescripcion.Text = dtgProductos.CurrentRow.Cells["descripcion"].Value.ToString();
+            txtprecio.Text = dtgProductos.CurrentRow.Cells["precio"].Value.ToString();
+            idproducto = int.Parse(dtgProductos.CurrentRow.Cells["id"].Value.ToString());
+            banderaGuardar = "Modificar";
+        }
+
+        private void btncancelar_Click(object sender, EventArgs e)
+        {
+            ControlarBotones(true, false, false, true, true);
+            ControlCuadros(false);
+            LimpiarTextBox();
+        }
+        private void ModificacionProductos()
+        {
+            Productos nuevoproducto = new Productos();
+            nuevoproducto.Id = idproducto;
+            nuevoproducto.Nombre = txtproducto.Text;
+            nuevoproducto.Descripcion = txtdescripcion.Text;
+            nuevoproducto.Precio = double.Parse(txtprecio.Text);
+            var validar = _productosLogica.ValidarProductos(nuevoproducto);
+            if (validar.Item1)
+            {
+                _productosLogica.ActualizarProductos(nuevoproducto);
+                LlenarUsuario();
+                LimpiarTextBox();
+                ControlarBotones(true, false, false, true, true);
+                ControlCuadros(false);
+                txtproducto.Focus();
+            }
+            else
+                MessageBox.Show(validar.Item2, "Error de Campos", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
     }
 }
