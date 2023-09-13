@@ -14,13 +14,13 @@ namespace AccesoDatos.Tienda
         Conexion conexion;
         public ProductosAccesoDatos()
         {
-            conexion = new Conexion("localhost", "root", "", "Restaurante", 3306);
+            conexion = new Conexion("localhost", "root", "", "TIENDAA", 3306);
         }
         public List<Productos> ObtenerProductos()
         {
             var ListaProductos = new List<Productos>();
             var dt = new DataTable();
-            dt = conexion.ObtenerDatos("Select * from productos");
+            dt = conexion.ObtenerDatos("Select * from productos;");
             foreach (DataRow renglon in dt.Rows)
             {
                 var productos = new Productos

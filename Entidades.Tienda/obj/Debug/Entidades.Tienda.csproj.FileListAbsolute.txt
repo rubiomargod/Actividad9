@@ -1,0 +1,6 @@
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Entidades.Tienda\bin\Debug\Entidades.Tienda.dll
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Entidades.Tienda\bin\Debug\Entidades.Tienda.pdb
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Entidades.Tienda\obj\Debug\Entidades.Tienda.csproj.AssemblyReference.cache
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Entidades.Tienda\obj\Debug\Entidades.Tienda.csproj.CoreCompileInputs.cache
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Entidades.Tienda\obj\Debug\Entidades.Tienda.dll
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\Entidades.Tienda\obj\Debug\Entidades.Tienda.pdb

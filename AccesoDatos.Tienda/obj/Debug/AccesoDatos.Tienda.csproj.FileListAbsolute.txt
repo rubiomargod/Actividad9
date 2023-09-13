@@ -1,0 +1,10 @@
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\AccesoDatos.Tienda\bin\Debug\AccesoDatos.Tienda.dll
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\AccesoDatos.Tienda\bin\Debug\AccesoDatos.Tienda.pdb
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\AccesoDatos.Tienda\bin\Debug\Entidades.Tienda.dll
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\AccesoDatos.Tienda\bin\Debug\MySql.Data.dll
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\AccesoDatos.Tienda\bin\Debug\Entidades.Tienda.pdb
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\AccesoDatos.Tienda\obj\Debug\AccesoDatos.Tienda.csproj.AssemblyReference.cache
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\AccesoDatos.Tienda\obj\Debug\AccesoDatos.Tienda.csproj.CoreCompileInputs.cache
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\AccesoDatos.Tienda\obj\Debug\AccesoDatos.Tienda.csproj.CopyComplete
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\AccesoDatos.Tienda\obj\Debug\AccesoDatos.Tienda.dll
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\AccesoDatos.Tienda\obj\Debug\AccesoDatos.Tienda.pdb

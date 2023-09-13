@@ -1,0 +1,12 @@
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\LogicaNegocio.Tienda\bin\Debug\LogicaNegocio.Tienda.dll
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\LogicaNegocio.Tienda\bin\Debug\LogicaNegocio.Tienda.pdb
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\LogicaNegocio.Tienda\bin\Debug\AccesoDatos.Tienda.dll
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\LogicaNegocio.Tienda\bin\Debug\Entidades.Tienda.dll
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\LogicaNegocio.Tienda\bin\Debug\MySql.Data.dll
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\LogicaNegocio.Tienda\bin\Debug\AccesoDatos.Tienda.pdb
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\LogicaNegocio.Tienda\bin\Debug\Entidades.Tienda.pdb
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\LogicaNegocio.Tienda\obj\Debug\LogicaNegocio.Tienda.csproj.AssemblyReference.cache
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\LogicaNegocio.Tienda\obj\Debug\LogicaNegocio.Tienda.csproj.CoreCompileInputs.cache
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\LogicaNegocio.Tienda\obj\Debug\LogicaNegocio.Tienda.csproj.CopyComplete
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\LogicaNegocio.Tienda\obj\Debug\LogicaNegocio.Tienda.dll
+C:\Users\xrubi\Documents\Github\Actividad9\Tienda\LogicaNegocio.Tienda\obj\Debug\LogicaNegocio.Tienda.pdb
